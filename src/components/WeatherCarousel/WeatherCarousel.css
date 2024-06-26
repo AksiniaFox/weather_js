@@ -1,0 +1,50 @@
+/* WeatherCarousel.css */
+.carousel {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    margin:auto;
+    margin-bottom: 10%;
+
+    
+  }
+  
+  .carousel-container {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .weather-block {
+    min-width: 200px;
+    padding: 20px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+  }
+  
+  .weather-block:last-child {
+    border-right: none;
+  }
+  
+  button {
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .logo_small {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
