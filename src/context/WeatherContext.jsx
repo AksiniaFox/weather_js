@@ -18,7 +18,7 @@ const WeatherProvider = ({children}) => {
     useEffect(() => {
         
 
-        $api.get("https://api.openweathermap.org/data/2.5/weather?lat=55.748814&lon=37.537525&appid=45cce6245a077d8ca3e0b4f517616bad&units=metric")
+        $api.get("https://api.openweathermap.org/data/2.5/weather?lat=55.748814&lon=37.537525&appid={Token}&units=metric")
             .then((res1) => { 
 
                 console.log(res1)
