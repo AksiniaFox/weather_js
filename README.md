@@ -12,7 +12,7 @@ npm start
 ```
 ### Клиентская часть
 
-![This is an image](/GitSource/Screenshot_1.png)
+![This is an image](/GitSourse/Screenshot_1.png)
 
 
 #### Проект реализован с использованием
